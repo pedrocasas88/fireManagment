@@ -16,22 +16,22 @@ public class fireMain {
 			
 		
 		JButton button = new JButton("Towns above 50,000");
-		button.setBounds(10, 10, 200, 35);
+		button.setBounds(10, 10, 200, 30);
 		
 		JButton button1 = new JButton("Towns above 100,000");
-		button1.setBounds(10, 20, 200, 35);
+		button1.setBounds(10, 50, 200, 30);
 		
 		JButton button2 = new JButton("Fire Name");
-		button1.setBounds(10, 20, 200, 35);
+		button2.setBounds(10, 90, 200, 30);
 		
 		JButton button3 = new JButton("Resources avaliavle");
-		button1.setBounds(10, 20, 200, 35);
+		button3.setBounds(10, 130, 200, 30);
 		
 		JButton button4 = new JButton("Fire size");
-		button1.setBounds(10, 20, 200, 35);
+		button4.setBounds(10, 170, 200, 30);
 		
 		JButton button5 = new JButton("Percent Contained");
-		button1.setBounds(10, 20, 200, 35);
+		button5.setBounds(10, 210, 200, 30);
 		
 		JPanel panel = new JPanel();
 		panel.setLayout(null);
