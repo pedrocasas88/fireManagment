@@ -2,6 +2,7 @@ package fireManagment;
 
 import java.awt.BorderLayout;
 import java.awt.Component;
+import java.awt.ComponentOrientation;
 import java.awt.GridLayout;
 
 import javax.swing.JButton;
@@ -17,15 +18,23 @@ public class fireMain {
 		JButton button = new JButton("im a button");
 		JButton button1 = new JButton("button 2");
 		JButton button2 = new JButton("button 3");
-		
+		JButton button3 = new JButton("button 4");
+		JButton button4 = new JButton("Button 5");
+		JButton button5 = new JButton("Button 6");
 		
 		JPanel panel = new JPanel();
-		panel.setLayout(new GridLayout(3,3));
+		panel.setLayout(new GridLayout(3,3, 400, 10));
+		
 		
 	
 		panel.add(button1, BorderLayout.WEST);
 		panel.add(button2, BorderLayout.WEST);
 		panel.add(button, BorderLayout.WEST);
+		panel.add(button3);
+		panel.add(button4);
+		panel.add(button5);
+		panel.add(button5);
+		panel.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
 
 		
 		JFrame frame = new JFrame();
