@@ -15,21 +15,32 @@ public class fireMain {
 		// TODO Auto-generated method stub
 			
 		
-		JButton button = new JButton("im a button");
-		JButton button1 = new JButton("button 2");
-		JButton button2 = new JButton("button 3");
-		JButton button3 = new JButton("button 4");
-		JButton button4 = new JButton("Button 5");
-		JButton button5 = new JButton("Button 6");
+		JButton button = new JButton("Towns above 50,000");
+		button.setBounds(10, 10, 200, 35);
+		
+		JButton button1 = new JButton("Towns above 100,000");
+		button1.setBounds(10, 20, 200, 35);
+		
+		JButton button2 = new JButton("Fire Name");
+		button1.setBounds(10, 20, 200, 35);
+		
+		JButton button3 = new JButton("Resources avaliavle");
+		button1.setBounds(10, 20, 200, 35);
+		
+		JButton button4 = new JButton("Fire size");
+		button1.setBounds(10, 20, 200, 35);
+		
+		JButton button5 = new JButton("Percent Contained");
+		button1.setBounds(10, 20, 200, 35);
 		
 		JPanel panel = new JPanel();
-		panel.setLayout(new GridLayout(3,3, 400, 10));
+		panel.setLayout(null);
 		
 		
 	
-		panel.add(button1, BorderLayout.WEST);
-		panel.add(button2, BorderLayout.WEST);
-		panel.add(button, BorderLayout.WEST);
+		panel.add(button1);
+		panel.add(button2);
+		panel.add(button);
 		panel.add(button3);
 		panel.add(button4);
 		panel.add(button5);
